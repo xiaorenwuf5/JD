@@ -2,11 +2,11 @@ const $ = new Env("互助码");
 const notify = $.isNode() ? require('./sendNotify') : '';
 const shareCodes = [
   {
-    zd: process.env.ZD_SHARECODE || "olmijoxgmjutzz4xm5rqyyocxme5zphvx455tfq",
-    nc: process.env.NC_SHARECODE || "a3b56ca6636641f88222cef9762bf664",
-    mc: process.env.MC_SHARECODE || "MTAxODExNTM5NDAwMDAwMDAzOTYwNTgwMw==",
-    ddgc: process.env.DD_SHARECODE || "P04z54XCjVWnYaS5m9cZ2b5i38cwEawyPk_T7Q",
-    jxgc: process.env.JX_SHARECODE || "woUSQ_yPOFrJB9dZ6MdwZQ==",
+    zd: process.env.ZD_SHARECODE || "lhubofhlunfaukoiuwcxp3ycmi",
+    nc: process.env.NC_SHARECODE || "4ce48d6f09bb4b039d4e5da93868402b",
+    mc: process.env.MC_SHARECODE || "MTAxODExNTM5NDAwMDAwMDAzOTkyMjc1MQ==",
+    ddgc: process.env.DD_SHARECODE || "P04z54XCjVWnYaS5n1RWT-6iCIN0FCe",
+    jxgc: process.env.JX_SHARECODE || "c5LPD6t4TMgtcvwVJh3Hvw==",
     jdzz: process.env.ZZ_SHARECODE || "AUWE5mazGzmNdXGD_2nscwA",
   },
 ];
